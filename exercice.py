@@ -20,8 +20,8 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
 
 def get_number_of_char(string: str, char: str) -> int:
     for char in string:
-        X{} += 1
-    return 
+        X[char] += 1
+    return X
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
